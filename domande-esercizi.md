@@ -2,17 +2,17 @@
 ## Domande
 - Qual è la differenza tra una query scritta direttamente nel codice e una query parametrizzata?
 ```text
-
+In una query parametrizzata i dati vengono inviati separamente al database, che li tratta esclusivamente come valori e non come stringe con la query diretta
 ```
 
 - Qual è il vantaggio di avere funzioni di supporto come esegui_select() ed esegui_dml()?
 ```text
-
+Queste funzioni servono a non dover riscrivere ogni volta le stesse operazioni, come aprire il cursore, gestire gli errori o confermare le modifiche. Invece di avere dieci righe di codice ripetute per ogni operazione, ne usiamo solo una richiamando queste funzioni "assistenti". Questo rende il programma più pulito e molto più facile da correggere se qualcosa non va
 ```
 
 - In che senso i tre file non sono alternative equivalenti, ma evoluzioni progressive dello stesso codice?
 ```text
-
+I tre file non sono modi diversi di fare la stessa cosa, ma rappresentano il miglioramento del codice nel tempo. Si parte da uno script disordinato dove tutto è mischiato (file 1), si passa a uno più organizzato con le funzioni (file 2), fino ad arrivare a una struttura professionale (file 3). In quest'ultimo stadio, il codice è diviso in scomparti stagni: uno gestisce solo la connessione e l'altro solo i dati, proprio come in una cucina professionale ogni zona ha il suo compito preciso.
 ```
 
 
