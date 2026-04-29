@@ -4,9 +4,9 @@ from datetime import date
 # Configurazione della connessione al database
 DB_CONFIG = {
     "host": "127.0.0.1",
-    "user": "NOME_UTENTE_DATABASE",
-    "password": "PASSWORD_DATABASE",
-    "database": "NOME_DATABASE", # lo stesso del NOME_UTENTE
+    "user": "4CTL_leoni.l.150508",
+    "password": "Ottobre2025!",
+    "database": "4CTL_leoni.l.150508", # lo stesso del NOME_UTENTE
     "port": 3307,
     "cursorclass": pymysql.cursors.Cursor,
     "connect_timeout": 5,
